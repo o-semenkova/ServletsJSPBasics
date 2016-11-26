@@ -11,8 +11,8 @@ import java.net.URL;
 public class JavaNetClient {
     public static void main(String[] args) {
         try {
-            Integer a = 2;
-            Integer b = 4;
+            Integer a = 5;
+            Integer b = 6;
 
             URL url = new URL("http://localhost:8080/ServletsBasics?a=" + a + "&b=" + b);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
